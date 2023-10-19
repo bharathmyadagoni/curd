@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Practice</title>
+    <script>
+        function change(){
+          document.getElementById("blub").innerHTML="Blub Off And ON"
+        }
+    </script>
+</head>
+<body>
+    <h1 id="blub"></h1>
+    <button id="onbutton">Turn on the light</button>
+    <img id="myImage" src="pic_bulboff.gif" style="width:100px">
+    <button id ="offbutton">Turn off the light</button>
+    <script>
+        document.getElementById("blub").innerHTML="Blub ON And Off"
+        // window.alert(5)
+    </script>
+    <div>
+    <button id = "changeH" onclick="change()">change Heading</button>
+    <button onclick="document.write(6+7)">try</button>
+    <button onclick="window.print()">print</button>
+</div>
+    <script src='index.js'></script>
+</body>
+</html>
